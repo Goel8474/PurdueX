@@ -1,0 +1,41 @@
+/*
+ * Pupose: To complete project 2
+ * Author: Vishesh Goel
+ * Date: 01/24/2023
+ */
+
+import java.util.scanner
+
+public class Associative {
+  
+  Associative() {}
+  
+  int x;
+  int y;
+  int z;
+  
+  double firstTwo(int x, int y, int z) {
+      return (x + y) * z
+  }
+  
+  double lastTwo(int x, int y, int z) {
+    return y * z + x
+  }
+  public static void main(String[] args) {
+    System.out.println("Please enter your first integer below:");
+    Scanner s = new Scanner();
+    int a = s.nextint();
+    
+    
+    System.out.println("Please enter your second integer below:");
+    Scanner t = new Scanner();
+    int b = s.nextint();
+    
+    
+    System.out.println("Please enter your third integer below:");
+    Scanner u = new Scanner();
+    int c = s.nextint();
+    
+    
+  }
+}

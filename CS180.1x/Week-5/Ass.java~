@@ -1,0 +1,19 @@
+/*
+ * Purpose: 
+ * Name: 
+ * Date: 
+ */
+
+public class Ass {
+  
+  double product(double one, double two) {
+    return one * two;
+    
+  }
+  public static void main (String[] args) {
+    Ass one = new Ass();
+    
+    assert one.product(1, 3) == 3;
+  }
+
+}

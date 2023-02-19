@@ -1,0 +1,12 @@
+/*
+ * Purpose: To test out reference types
+ * Name: Vishesh Goel
+ * Date: 01/31/2023
+ */
+
+public class Thingy3 {
+     public static void main(String[] args) {
+       
+          System.out.println("hello" == "hello");
+     }
+}

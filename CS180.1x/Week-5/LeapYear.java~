@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class LeapYear {
+  public static void main {
+    Scanner s = new Scanner(System.in);
+    int currentYear = s.Nextint();
+    System.out.println(isLeapYear(currentYear));
+  
+  }
+  public static boolean isLeapYear (int currentYear) {
+    if ((currentYear % 4) == 0) {
+      if ((currentYear % 100) == 0 && (currentYear & 100) != 0) {
+        return false;
+      
+      } else {
+        return true;
+      
+      }
+    
+    } else {
+      return false;
+    
+    }
+  
+  }
+
+}

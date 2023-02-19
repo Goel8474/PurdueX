@@ -1,0 +1,49 @@
+/*
+ * Purpose: To complete AllAboutMe"
+ * Author: Vishesh Goel
+ * Date Started: 01/16/2023
+ * Date Finished 01/20/2023
+ */
+
+import java.util.Scanner;
+
+public class AboutMe {
+  String name;
+  String school;
+  int age;
+  
+  AboutMe(String name, String school, int age) {
+    this.name = name;
+    this.school = school;
+    this.age = age;
+  }
+  String myName() {
+    return name;
+  }
+  String mySchool() {
+    return school;
+  }
+  int myAge() {
+    return age;  
+  }
+  public static void main(String[] args){
+    System.out.println("Please enter your name");
+    Scanner one = new Scanner(System.in);
+    String x = one.nextLine();
+    one.close();
+    
+    System.out.println("Please enter your school");
+    Scanner two = new Scanner(System.in);
+    String y = two.nextLine();
+    two.close();
+    
+    System.out.println("Please enter your age");
+    Scanner three = new Scanner(System.in);
+    int z = three.nextInt();
+    three.close();
+    
+    AboutMe w = new AboutMe(x,y,z);
+    
+    System.out.println("My name is " + w.myName() + ", and I attend " + w.mySchool() + ". I am " + w.myAge() + " years old.");
+  }
+}
