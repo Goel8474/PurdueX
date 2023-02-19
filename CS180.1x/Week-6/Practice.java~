@@ -1,0 +1,21 @@
+/*
+ * Purpose: To test out null pointers and avoid them
+ * Name: Vishesh Goel
+ * Date: 02/19/2023
+ */
+
+public class Practice {
+  public static void main(String[] args) {
+    String s1 = "", s2 = "alacazam", s3 = "abracadabra";
+    firstLastCheck(s1);
+    firstLastCheck(s2);
+    firstLastCheck(s3);
+  }
+  public static void firstLastCheck(String s) {
+    if (s.length() > 0 && (s.substring(0) == s.substring(s.length - 1))) {
+      System.out.println(s + ": Same start and finish letter!");
+    } else (
+      System.out.println(s + ": Not same start and finish letter!");
+    )
+  }
+}

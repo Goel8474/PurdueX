@@ -1,0 +1,14 @@
+/*
+ * Pupose: To test out casting
+ * Author: Vishesh Goel
+ * Date: 01/24/2023
+ */
+
+public class Cast {
+  public static void main(String[] args) {
+    int x = 6, y = 10;
+    float z;
+    float z = (float)(x/y);
+    System.out.println("Ever faithful, ever " + b + "!");
+  }
+}
